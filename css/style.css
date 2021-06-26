@@ -162,4 +162,26 @@ body {
   .jobs-container {
     grid-template-columns: repeat(1, 1fr);
   }
+  .input-container {
+    width: 70%;
+    display: flex;
+    align-items: center;
+  }
+  .input-container input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    outline: none !important;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  .button-container {
+    width: 30%;
+    background-color: #3060ff;
+    /* width: 100px; */
+    justify-content: center;
+    align-items: center;
+  }
 }
